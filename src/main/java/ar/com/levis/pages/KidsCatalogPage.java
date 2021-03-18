@@ -1,0 +1,5 @@
+package ar.com.levis.pages;
+
+public class KidsCatalogPage {
+
+}

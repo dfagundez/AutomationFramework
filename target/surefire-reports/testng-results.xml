@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="71255" started-at="2021-03-12T12:49:23Z" finished-at="2021-03-12T12:50:35Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="71255" started-at="2021-03-12T12:49:23Z" finished-at="2021-03-12T12:50:35Z">
+      <class name="com.levis.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="setUp" is-config="true" duration-ms="9480" started-at="2021-03-12T09:49:32Z" finished-at="2021-03-12T09:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="loginPageTitleTest" duration-ms="6" started-at="2021-03-12T09:49:42Z" finished-at="2021-03-12T09:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="666" started-at="2021-03-12T09:49:42Z" finished-at="2021-03-12T09:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="setUp" is-config="true" duration-ms="12410" started-at="2021-03-12T09:49:51Z" finished-at="2021-03-12T09:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="levisLogoTest()[pri:2, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="levisLogoTest" duration-ms="68" started-at="2021-03-12T09:50:03Z" finished-at="2021-03-12T09:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- levisLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-03-12T09:50:03Z" finished-at="2021-03-12T09:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="setUp" is-config="true" duration-ms="9821" started-at="2021-03-12T09:50:12Z" finished-at="2021-03-12T09:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="loginTest" duration-ms="2395" started-at="2021-03-12T09:50:22Z" finished-at="2021-03-12T09:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.LoginPageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="662" started-at="2021-03-12T09:50:24Z" finished-at="2021-03-12T09:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.levis.qa.testcases.LoginPageTest -->
+      <class name="com.levis.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="setUp" is-config="true" duration-ms="8354" started-at="2021-03-12T09:49:23Z" finished-at="2021-03-12T09:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MensCatalogLinkTest()[pri:1, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="MensCatalogLinkTest" duration-ms="75" started-at="2021-03-12T09:49:32Z" finished-at="2021-03-12T09:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MensCatalogLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="tearDown" is-config="true" duration-ms="633" started-at="2021-03-12T09:49:32Z" finished-at="2021-03-12T09:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="setUp" is-config="true" duration-ms="7592" started-at="2021-03-12T09:49:43Z" finished-at="2021-03-12T09:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WomensCatalogLinkTest()[pri:2, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="WomensCatalogLinkTest" duration-ms="66" started-at="2021-03-12T09:49:50Z" finished-at="2021-03-12T09:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WomensCatalogLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="tearDown" is-config="true" duration-ms="652" started-at="2021-03-12T09:49:50Z" finished-at="2021-03-12T09:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="setUp" is-config="true" duration-ms="7417" started-at="2021-03-12T09:50:04Z" finished-at="2021-03-12T09:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="KidsCatalogLinkTest()[pri:3, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="KidsCatalogLinkTest" duration-ms="62" started-at="2021-03-12T09:50:11Z" finished-at="2021-03-12T09:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KidsCatalogLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="tearDown" is-config="true" duration-ms="688" started-at="2021-03-12T09:50:12Z" finished-at="2021-03-12T09:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="setUp" is-config="true" duration-ms="7393" started-at="2021-03-12T09:50:25Z" finished-at="2021-03-12T09:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="KidsCatalogTitleTest()[pri:4, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="KidsCatalogTitleTest" duration-ms="1424" started-at="2021-03-12T09:50:33Z" finished-at="2021-03-12T09:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KidsCatalogTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.levis.qa.testcases.HomePageTest@60addb54]" name="tearDown" is-config="true" duration-ms="684" started-at="2021-03-12T09:50:34Z" finished-at="2021-03-12T09:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.levis.qa.testcases.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

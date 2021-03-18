@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Levis Argentina Test Automation Test Suite Regression]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.general.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Levis Argentina Website Test Cases(failed)">
+    <classes>
+      <class name="com.levis.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="levisLogoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.levis.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Levis Argentina Website Test Cases(failed) -->
+</suite> <!-- Failed suite [Levis Argentina Test Automation Test Suite Regression] -->
