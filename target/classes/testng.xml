@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Levis Argentina Test Automation Test Suite Regression">
+<suite name="Test Suite Levis Argentina">
+<!--	<listeners>
+		<listener class-name="extentreport.ExtentReporterNG" />
+	</listeners>-->
 
-	<listeners>
-		<listener class-name="com.general.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+	<parameter name="URL" value="googleuy" />
 
-	<test name="Levis Argentina Website Test Cases">
+	<test name="Test on Chrome">
+		<parameter name="BrowserType" value="Chrome" />
 		<classes>
-			<!-- <class name="com.levis.qa.testcases.HomePageTest"></class> -->
-			<class name="com.levis.qa.testcases.LoginPageTest"></class>
+			<class name="projects.mercadolibre.testcases.SearchCarsTest" />
 		</classes>
 	</test>
+
+	<test name="Test on FF">
+		<parameter name="BrowserType" value="Firefox" />
+		<classes>
+			<class name="projects.mercadolibre.testcases.SearchCarsTest" />
+		</classes>
+	</test>
+
+<!--	<test name="Test on IE">
+		<parameter name="BrowserType" value="Internet Explorer"></parameter>
+		<classes>
+			<class name="projects.levis.testcases.HomePageTest"></class>
+			<class name="projects.levis.testcases.LoginPageTest"></class>
+		</classes>
+	</test>-->
+
 </suite>

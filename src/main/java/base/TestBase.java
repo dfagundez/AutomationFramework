@@ -17,15 +17,15 @@ import util.WebEventListener;
 
 public class TestBase {
 
-	protected static WebDriver driver;
-	protected static Properties prop;
+	public static WebDriver driver;
+	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\Diego\\Documents\\Diego\\Projects\\AutomationTemplate\\src\\main\\java\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Diego\\Documents\\Diego\\Projects\\AutomationFramework\\src\\main\\java\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -34,18 +34,18 @@ public class TestBase {
 		}
 	}
 
-	public static void initialization(String brand) {
+	public static void initialization(String brand, String browserName) {
 
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 		
-		if (browserName.equals("chrome")) {
+		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\webdriver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (browserName.equals("firefox")) {
+		} else if (browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\webdriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("edge")) {
-			System.setProperty("webdriver.gecko.driver", "C:\\webdriver\\IEDriverServer.exe");
+		} else if (browserName.equalsIgnoreCase("edge")) {
+			System.setProperty("webdriver.ie.driver", "C:\\webdriver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
         }
 		
